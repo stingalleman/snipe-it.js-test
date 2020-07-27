@@ -6,7 +6,8 @@
     "outDir": "dist",
     "resolveJsonModule": true,
     "watch": true,
-    "rootDir": "src"
+    "rootDir": "src",
+    "esModuleInterop": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
