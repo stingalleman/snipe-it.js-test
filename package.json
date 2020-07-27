@@ -1,0 +1,24 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "rm -rf dist/* && tsc",
+    "compilerun": "rm -rf dist/* && tsc && cd dist && node index.js",
+    "lint": "eslint '*/**/*.{js,ts,tsx}'"
+  },
+  "keywords": [],
+  "author": "Sting Alleman",
+  "license": "ISC",
+  "homepage": "https://github.com/stingalleman/discordbot#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.3"
+  }
+}
